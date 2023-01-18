@@ -18,3 +18,10 @@ def sort(t, fun=None):
     tmp = sorted(t.items(), key=fun)
     t = dict(tmp)
     return t
+
+def keys(t):
+    sorted_keys = sorted(t.keys())
+    res = {}
+    for i in range(1,len(sorted_keys)+1):
+        res[i] = sorted_keys[i-1]
+    return res
