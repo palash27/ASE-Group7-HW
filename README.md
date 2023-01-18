@@ -10,6 +10,7 @@
 ![github workflow](https://github.com/palash27/ASE-Group7-HW/actions/workflows/syntax_checker.yml/badge.svg)
 ![github workflow](https://github.com/palash27/ASE-Group7-HW/actions/workflows/close_as_a_feature.yml/badge.svg) -->
 <!--Badges-->
+![GitHub](https://img.shields.io/badge/Language-Python-blue.svg)
 <a href="https://github.com/palash27/ASE-Group7-HW/fork" target="blank">
 <img src="https://img.shields.io/github/forks/palash27/ASE-Group7-HW?style=flat-square" alt="Simplii forks"/>
 </a>
