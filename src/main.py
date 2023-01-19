@@ -1,16 +1,28 @@
-import String
-import re
+from misc import *
+import sys
+from test_engine import test
 
-class Main:
-    def cli(self, options):
-        for k, v in options.items():
-            v = str(v)
-            for n, x in options.items():
-                if x == "-"+re.sub(1, 1, k) or x == "--"+k:
-                    v = v == "false" and "true" or v == "true" and "false" or options[n+1]
-            options[k] = String.coerce(v)
-        return options
 
-    # def settings(self, s):
-    #     t = {}
-    #     re.sub('\n[%s]+[-][%S]+[%s]+[-][-]([%S]+)[^\n]+= ([%S]+)',lambda k,v: t[k]= String.coerce(v), s)
+help = """   
+script.lua : an example script with help text and a test suite
+(c)2022, Tim Menzies <timm@ieee.org>, BSD-2 
+USAGE:   script.lua  [OPTIONS] [-g ACTION]
+OPTIONS:
+  -d  --dump  on crash, dump stack = false
+  -g  --go    start-up action      = data
+  -h  --help  show help            = false
+  -s  --seed  random number seed   = 937162211
+ACTIONS:
+  -g  the	show settings
+  -g  rand	generate, reset, regenerate same
+  -g  sym	check syms
+  -g  num	check nums
+"""
+
+the = cli(sys.argv[1:])
+
+test(the)
+if the['help']:
+    exit (print("\n" + str(help) + "\n"))
+
+
