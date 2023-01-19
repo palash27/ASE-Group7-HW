@@ -14,8 +14,8 @@ class Num:
             self.lo = min(n, self.lo)
             self.hi = max(n, self.hi)
 
-    def mid(self, x):
+    def mid(self):
         return self.mu
     
-    def div(self, x):
-        return (self.m2 <0 or self.n < 2) and 0 or (self.m2/(self.n-1))^0.5
+    def div(self):
+        return (self.m2 <0 or self.n < 2) and 0 or (self.m2/(self.n-1))**0.5
