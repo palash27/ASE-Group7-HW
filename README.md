@@ -51,3 +51,28 @@
     /
     <a href="https://github.com/palash27/ASE-Group7-HW/issues/new/choose">Request Feature</a>
 </p> -->
+
+# Project Name
+
+This is the README file for Lua to Python Project, which is homework done by Group 7 for the course Automated Software Engineering (CSC591)
+
+## Requirements
+
+- Python3
+- Required packages mentioned in `requirements.txt` file
+
+## Installation
+
+Please refer to the [INSTALL.md](INSTALL.md) for information on how to install the project.
+
+## Contributing
+
+Please refer to the [CONTRIBUTING.md](CONTRIBUTING.md) for information on how to contribute to the project.
+
+## License
+
+This project is licensed under [MIT LICENSE](LICENSE.md)
+
+## Support
+
+Please open an issue on the project's GitHub repository if you encounter any problems or have any questions.
