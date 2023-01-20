@@ -34,7 +34,7 @@ python setup.py install
 
 ## Running the Project
 
-You can now start the project by running the following command:
+You can now start the project by running the following command to run all the tests:
 ```
-python main.py
+python3 src/main.py -g all
 ```
