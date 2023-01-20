@@ -13,6 +13,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8475.svg)](https://doi.org/10.5281/zenodo.8475)
 ![GitHub](https://img.shields.io/badge/Language-Python-blue.svg)
 [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/palash27/ASE-Group7-HW/python-app.yml)](https://github.com/palash27/ASE-Group7-HW/actions)
+[![GitHub](https://img.shields.io/github/license/palash27/ASE-Group7-HW)](https://github.com/palash27/ASE-Group7-HW/blob/main/LICENSE.md)
 <a href="https://github.com/palash27/ASE-Group7-HW/fork" target="blank">
 <img src="https://img.shields.io/github/forks/palash27/ASE-Group7-HW?style=flat-square" alt="Simplii forks"/>
 </a>
