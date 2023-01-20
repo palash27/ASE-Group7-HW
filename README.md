@@ -54,7 +54,6 @@
     <a href="https://github.com/palash27/ASE-Group7-HW/issues/new/choose">Request Feature</a>
 </p> -->
 
-# Project Name
 
 This is the README file for Lua to Python Project, which is homework done by Group 7 for the course Automated Software Engineering (CSC591)
 
