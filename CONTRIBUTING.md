@@ -16,5 +16,11 @@ To submit a change, please fork the project and create a new branch with a descr
 
 The Lua to Python Project adheres to the [PEP 8](https://www.python.org/dev/peps/pep-0008/) style guide for Python code. Please make sure to follow these guidelines when submitting code.
 
+## License
+
+By contributing to the Lua to Python Converter project, you agree to license your contributions under the [MIT License](https://github.com/palash27/ASE-Group7-HW/blob/main/LICENSE.md).
+
 
 Thank you for your interest in the Lua to Python Project, and we look forward to reviewing your contributions!
+
+
