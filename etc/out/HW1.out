@@ -1,0 +1,6 @@
+palashrathod@Palashs-MacBook-Pro hw1 % python3 src/main.py -g all
+✅ pass: sym
+✅ pass: num
+{:dump False :file data/data.csv :go all :help False :seed 937162211 }
+✅ pass: the
+✅ pass: rand
