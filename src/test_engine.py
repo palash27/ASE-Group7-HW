@@ -1,5 +1,5 @@
 
-from Sym import *
+import Sym
 from Num import *
 from misc import *
 import random
