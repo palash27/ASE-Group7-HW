@@ -1,11 +1,14 @@
 
-from src.Sym import *
-from src.Num import *
-from src.misc import *
+from Sym import *
+from Num import *
+from misc import *
 import random
 
 egs = {}
 def eg(key, str, fun):
+    """
+    register an example.
+    """
     egs[key] = fun
 
 def SYM(the):
