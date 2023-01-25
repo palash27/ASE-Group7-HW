@@ -6,7 +6,7 @@ setup(
     description='Github repository for ASE HWs',
     author='Palash Rathod',
     author_email='prathod@ncsu.edu',
-    packages=['src'],
+    packages=find_packages(exclude=['test']),
         long_description="""\
             Creating github repository files.
             CODE_OF_CONDUCT.md
