@@ -66,6 +66,10 @@ This is the README file for Lua to Python Project, which is homework 1 done by G
 
 Please refer to the [INSTALL.md](INSTALL.md) for information on how to install the project.
 
+## Documentation
+
+Please find the documentation for this repository by clicking [here](https://deekay2310.github.io/ASE-Group7-HW-docs/src.html).
+
 ## Contributing
 
 Please refer to the [CONTRIBUTING.md](CONTRIBUTING.md) for information on how to contribute to the project.
