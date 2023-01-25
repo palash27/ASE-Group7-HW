@@ -6,6 +6,9 @@ import random
 
 egs = {}
 def eg(key, str, fun):
+    """
+    register an example.
+    """
     egs[key] = fun
 
 def SYM(the):
