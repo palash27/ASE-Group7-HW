@@ -37,3 +37,6 @@ jobs:
     - name: Run Test Engine
       run: |
         python -m src.main --go all
+    - name: Documentation
+      run: |
+        pydoc -w src
