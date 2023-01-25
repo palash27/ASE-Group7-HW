@@ -39,4 +39,4 @@ jobs:
         python -m src.main --go all
     - name: Documentation
       run: |
-        pydoc -w src/Sym
+        pdoc3 -f --html -o docs src
